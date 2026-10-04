@@ -1,0 +1,203 @@
+
+>   [FRAME] "Bored" #52:3851 layout={"mode":"column","alignItems":"stretch","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":430,"height":7120}} fills=fill_658ab2fa
+      [FRAME] "Body" #52:3852 layout={"mode":"column","alignSelf":"stretch","alignItems":"center","sizing":{"horizontal":"fill","vertical":"fixed"},"dimensions":{"height":7120.13}} fills=fill_658ab2fa
+        [FRAME] "Container" #52:3856 layout={"mode":"row","padding":"16px 20px","justifyContent":"space-between","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":430,"height":66}}
+          [FRAME] "Container" #52:3858 layout={"mode":"row","alignItems":"center","gap":"14px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":205.91,"height":33.59}}
+            [FRAME] "Image" #52:3861 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":32,"height":31.19}} fills=fill_cc6c4bac
+            [FRAME] "Paragraph" #52:3862 template=EL-2f9fe287
+              [TEXT] #52:3864 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_1f769429 text="Paper{ts1}Buddy{/ts1}"
+          [FRAME] "Container" #52:3866 layout={"mode":"row","justifyContent":"flex-end","alignItems":"center","gap":"12px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":78,"height":34}}
+            [FRAME] "Container" #52:3869 layout={"mode":"row","padding":"8px","justifyContent":"center","alignItems":"center","gap":"8px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":34,"height":34}} borderRadius=100px
+              [IMAGE-SVG] "material-symbols:download" #52:4669 template=EL-b8290adc
+              [FRAME] "Text" #52:3871 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":34,"height":34}} strokes=fill_31bcce18 strokeWeight=1px borderRadius=100px
+            [IMAGE-SVG] "material-symbols:menu" #52:4675 layout=layout_eb17a84c fills=fill_97d170e1
+        [FRAME] "Container" #52:3872 layout={"mode":"column","gap":"120px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":6329.7}}
+          [FRAME] "Container" #52:3873 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":628}}
+            [FRAME] "Container" #52:3874 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":21,"y":-23},"dimensions":{"width":385,"height":397}}
+              [FRAME] "Video" #52:3876 layout={"mode":"none","sizing":{},"locationRelativeToParent":{"x":-26.75,"y":-14},"dimensions":{"width":439.5,"height":438}} fills=[{"type":"IMAGE","imageRef":"c6a1dfe5757002f3193436defa37120fd88e106b","scaleMode":"FIT","objectFit":"contain","isBackground":false,"imageDownloadArguments":{"needsCropping":false,"requiresImageDimensions":false}}]
+            [FRAME] "Container" #52:3877 layout={"mode":"column","justifyContent":"flex-end","gap":"18px","sizing":{"horizontal":"fixed","vertical":"fixed"},"locationRelativeToParent":{"x":0,"y":24},"dimensions":{"width":387,"height":604}}
+              [FRAME] "Container" #52:3878 layout={"mode":"column","gap":"12px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":205.22}}
+                [FRAME] "Heading 1" #52:3879 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":387}}
+                  [TEXT] #52:3881 layout=layout_177c5efc fills=fill_34dc0314 textStyle={"fontFamily":"Instrument Serif","fontStyle":"Italic","fontWeight":400,"fontSize":52,"lineHeight":"57.2px","letterSpacing":"0.0019em","textAlignHorizontal":"LEFT","textAlignVertical":"TOP","italic":true} boldWeight=600 text="Less Paperwork.\\n{ts8}**Better Teaching.**{/ts8}"
+                [TEXT] #52:3885 layout=layout_d46f739a fills=fill_d0560d9f textStyle=style_51db8f4a text="One connected platform for Admins, Teachers, Students, Drivers, and Office staff — attendance, fees, exams, and transport, all in sync. Starting at just ₹10 per student, per month."
+              [FRAME] "Container" #52:3887 template=EL-f96f616a
+                [FRAME] "Container" #52:3889 template=EL-c11e503d
+                  [FRAME] "Paragraph" #52:3890 template=EL-2f9fe287
+                    [TEXT] #52:3892 template=EL-9d5e7d9c
+                  [IMAGE-SVG] "icon-park-outline:share" #52:4804 template=EL-b8290adc
+                [FRAME] "Container" #52:3897 template=EL-8b182484
+                  [IMAGE-SVG] "material-symbols:download" #52:4680 template=EL-b8290adc
+                  [FRAME] "Paragraph" #52:3899 template=EL-2f9fe287
+                    [TEXT] #52:3901 template=EL-02908591
+                  [FRAME] "Text" #52:3903 template=EL-d36bf3bd
+          [FRAME] "Container" #52:3904 layout={"mode":"column","gap":"32px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":1337.05}}
+            [FRAME] "Container" #52:3905 layout={"mode":"column","gap":"8px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":119.2}}
+              [TEXT] #52:3908 template=EL-59cd41ca
+              [TEXT] #52:3912 layout=layout_d46f739a fills=fill_6763ac18 textStyle=style_98e7accd text="No more one-size-fits-all dashboards. Each portal is built for exactly what that role needs to get done."
+            [FRAME] "Container" #52:3914 layout={"mode":"column","justifyContent":"center","alignItems":"center","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":1185.84}}
+              [FRAME] "Container" #52:3915 layout={"mode":"column","padding":"32px 24px","gap":"12px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":231.41}} fills=fill_31bcce18 borderRadius=16px
+                [FRAME] "Container" #52:3916 layout={"mode":"row","alignItems":"center","gap":"32px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":208.86,"height":52.8}}
+                  [FRAME] "Paragraph" #52:3917 template=EL-2f9fe287
+                    [TEXT] #52:3919 template=EL-c1d48d24
+                  [FRAME] "Container" #52:3921 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":140.23,"height":52.8}}
+                    [FRAME] "Heading 2" #52:3922 template=EL-2f9fe287
+                      [TEXT] #52:3924 layout=layout_177c5efc fills=fill_658ab2fa textStyle=style_1f769429 text="Admin App"
+                    [TEXT] #52:3928 template=EL-d0b6d1dc
+                [FRAME] "Paragraph" #52:3931 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":339}}
+                  [TEXT] #52:3932 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":341}} fills=fill_80687602 textStyle=style_51db8f4a text="Track enrollment, manage fees, and run HR and payroll from one dashboard. Detailed reports keep every decision backed by real data.\""
+                [FRAME] "Container" #52:3934 layout={"mode":"row","alignItems":"center","gap":"17px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":339,"height":36}}
+                  [FRAME] "Container" #52:3936 layout=layout_b81e552a fills=fill_658ab2fa borderRadius=100px
+                    [FRAME] "Paragraph" #52:3937 template=EL-2f9fe287
+                      [TEXT] #52:3939 template=EL-c2901175
+                    [IMAGE-SVG] "icon-park-outline:share" #52:4807 template=EL-b8290adc
+              [FRAME] "Container" #52:3943 template=EL-a65974d2
+                [FRAME] "Container" #52:3944 layout={"mode":"row","gap":"32px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":240.86,"height":60}}
+                  [FRAME] "Paragraph" #52:3945 template=EL-2f9fe287
+                    [TEXT] #52:3947 template=EL-ee688535
+                  [FRAME] "Container" #52:3949 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":164.03,"height":52.8}}
+                    [FRAME] "Heading 2" #52:3950 template=EL-2f9fe287
+                      [TEXT] #52:3952 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_1f769429 text="Teacher App"
+                    [TEXT] #52:3956 template=EL-1c000d41
+                [FRAME] "Placeholder for Container" #52:3959 template=EL-0c77481d
+                [FRAME] "Placeholder for Container" #52:3958 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":339,"height":36}}
+                [FRAME] "Text" #52:3960 template=EL-b488e138
+                [FRAME] "Container" #52:3961 layout={"mode":"row","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":24,"y":170.61},"dimensions":{"width":339,"height":36}}
+                  [FRAME] "Container" #52:3963 template=EL-c56b28ab
+                    [FRAME] "Paragraph" #52:3964 template=EL-2f9fe287
+                      [TEXT] #52:3966 template=EL-3dc5bb8b
+                    [IMAGE-SVG] "icon-park-outline:share" #52:4810 template=EL-b8290adc
+                    [FRAME] "Text" #52:3969 template=EL-000c9a59
+                  [FRAME] "Container" #52:3971 template=EL-2b9f361e
+                    [FRAME] "Paragraph" #52:3972 template=EL-2f9fe287
+                      [TEXT] #52:3974 template=EL-3567020c
+                    [IMAGE-SVG] "material-symbols:download" #52:4683 template=EL-b8290adc
+                [TEXT] #52:3980 layout=layout_b1f03418 fills=fill_d0560d9f textStyle=style_51db8f4a text="Mark attendance, generate exams, and share study material — PDFs, videos, and more — in a few taps. Stay connected with parents without leaving the app."
+              [FRAME] "Container" #52:3982 template=EL-a65974d2
+                [FRAME] "Container" #52:3983 layout={"mode":"row","gap":"32px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":234.95,"height":60}}
+                  [FRAME] "Paragraph" #52:3984 template=EL-2f9fe287
+                    [TEXT] #52:3986 template=EL-501478e1
+                  [FRAME] "Container" #52:3988 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":158.2,"height":52.8}}
+                    [FRAME] "Heading 2" #52:3989 template=EL-2f9fe287
+                      [TEXT] #52:3991 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_1f769429 text="Student App"
+                    [TEXT] #52:3995 template=EL-4c14a41e
+                [FRAME] "Placeholder for Container" #52:3997 template=EL-0c77481d
+                [FRAME] "Container" #52:3998 layout={"mode":"row","alignItems":"center","gap":"10px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":339,"height":36}}
+                  [FRAME] "Container" #52:4000 template=EL-c56b28ab
+                    [FRAME] "Paragraph" #52:4001 template=EL-2f9fe287
+                      [TEXT] #52:4003 template=EL-3dc5bb8b
+                    [IMAGE-SVG] "icon-park-outline:share" #52:4813 template=EL-b8290adc
+                    [FRAME] "Text" #52:4006 template=EL-000c9a59
+                  [FRAME] "Container" #52:4008 template=EL-2b9f361e
+                    [FRAME] "Paragraph" #52:4009 template=EL-2f9fe287
+                      [TEXT] #52:4011 template=EL-3567020c
+                    [IMAGE-SVG] "material-symbols:download" #52:4686 template=EL-b8290adc
+                [FRAME] "Text" #52:4015 template=EL-b488e138
+                [TEXT] #52:4018 layout=layout_b1f03418 fills=fill_d0560d9f textStyle=style_51db8f4a text="See attendance, fees, homework, and exam results in one place. Live bus tracking keeps you updated on pickup and arrival, in real time."
+              [FRAME] "Container" #52:4020 template=EL-a65974d2
+                [FRAME] "Container" #52:4021 layout={"mode":"row","gap":"32px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":250.83,"height":60}}
+                  [FRAME] "Paragraph" #52:4022 template=EL-2f9fe287
+                    [TEXT] #52:4024 template=EL-9d708799
+                  [FRAME] "Container" #52:4026 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":171.66,"height":52.8}}
+                    [FRAME] "Heading 2" #52:4027 template=EL-2f9fe287
+                      [TEXT] #52:4029 layout=layout_177c5efc fills=fill_34dc0314 textStyle=style_1f769429 text="Office App"
+                    [TEXT] #52:4033 template=EL-907bbac5
+                [FRAME] "Placeholder for Container" #52:4035 template=EL-0c77481d
+                [FRAME] "Container" #52:4036 template=EL-60ae0f4f
+                  [FRAME] "Container" #52:4038 template=EL-a7d38eb7
+                    [FRAME] "Paragraph" #52:4039 template=EL-2f9fe287
+                      [TEXT] #52:4041 template=EL-3dc5bb8b
+                    [IMAGE-SVG] "icon-park-outline:share" #52:4816 template=EL-b8290adc
+                    [FRAME] "Text" #52:4044 template=EL-a14aa128
+                [FRAME] "Text" #52:4045 template=EL-b488e138
+                [TEXT] #52:4048 layout=layout_b1f03418 fills=fill_d0560d9f textStyle=style_51db8f4a text="Draft files digitally, then track their movement with a scannable QR code. Every desk logs a scan — so no file goes missing between departments."
+              [FRAME] "Container" #52:4050 template=EL-a65974d2
+                [FRAME] "Container" #52:4051 template=EL-b0725e10
+                  [FRAME] "Paragraph" #52:4052 template=EL-2f9fe287
+                    [TEXT] #52:4054 template=EL-258b394c
+                  [FRAME] "Container" #52:4056 template=EL-7db43c3c
+                    [FRAME] "Paragraph" #52:4057 template=EL-2f9fe287
+                      [TEXT] #52:4059 template=EL-b5d91796
+                    [TEXT] #52:4063 template=EL-4c14a41e
+                [FRAME] "Placeholder for Container" #52:4065 template=EL-0c77481d
+                [FRAME] "Container" #52:4066 template=EL-60ae0f4f
+                  [FRAME] "Container" #52:4068 template=EL-a7d38eb7
+                    [FRAME] "Paragraph" #52:4069 template=EL-2f9fe287
+                      [TEXT] #52:4071 template=EL-3dc5bb8b
+                    [IMAGE-SVG] "icon-park-outline:share" #52:4819 template=EL-b8290adc
+                    [FRAME] "Text" #52:4074 template=EL-a14aa128
+                [FRAME] "Text" #52:4075 template=EL-b488e138
+                [TEXT] #52:4078 layout=layout_b1f03418 fills=fill_d0560d9f textStyle=style_51db8f4a text="Log in, get your route, and go. Live location sharing keeps parents and admins in sync on every pickup and drop-off."
+          [FRAME] "Container" #52:4080 layout={"mode":"column","gap":"32px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":1516.67}}
+            [FRAME] "Container" #52:4081 layout={"mode":"column","alignItems":"center","gap":"8px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":119.2}}
+              [TEXT] #52:4084 template=EL-59cd41ca
+              [TEXT] #52:4088 layout=layout_d46f739a fills=fill_6763ac18 textStyle=style_50cfa273 text="AI question papers, live attendance tracking, and automated alerts — the tools that set PaperBuddy apart."
+            [FRAME] "Container" #52:4090 layout={"mode":"column","gap":"12px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":1365.47}}
+              [FRAME] "Container" #52:4091 layout={"mode":"column","gap":"8px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":1025.47}}
+                [FRAME] "Container" #52:4092 layout=layout_8da2df97 fills=fill_658ab2fa borderRadius=24px
+                  [FRAME] "Container" #52:4093 layout=layout_8da2df97
+                    [FRAME] "Container" #52:4094 layout={"mode":"column","padding":"24.76799964904785px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":130}}
+                      [FRAME] "Paragraph" #52:4096 layout={"mode":"column","padding":"6.191999912261963px 0px 0px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":334.09,"height":31}}
+                        [TEXT] #52:4098 template=EL-f391b64c
+                      [FRAME] "Paragraph" #52:4102 template=EL-3f850de2
+                        [TEXT] #52:4103 layout=layout_05ce9366 fills=fill_3adc2aa0 textStyle=style_687e65c3 text="Every desk scans the QR when receiving or forwarding the physical file."
+                    [FRAME] "Container" #52:5173 layout={"mode":"column","alignItems":"stretch","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":14.5,"y":129.75},"dimensions":{"width":358,"height":174}}
+                      [IMAGE-SVG] "Image" #52:5174 template=EL-1af2aed2
+                      [IMAGE-SVG] "Icon" #52:5246 template=EL-d987cf9d
+                  [FRAME] "Text" #52:4109 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":387,"height":303}} strokes=fill_6fcdffce strokeWeight=1px borderRadius=24px
+                [FRAME] "Container" #52:4110 layout={"mode":"column","gap":"12px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":714.47}}
+                  [FRAME] "Container" #52:4111 layout={"mode":"column","gap":"12px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":354}}
+                    [FRAME] "Container" #52:4112 template=EL-2d6e7fba
+                      [FRAME] "Container" #52:4113 template=EL-37c30d41
+                        [FRAME] "Container" #52:4114 layout={"mode":"column","padding":"24.76799964904785px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":158}}
+                          [IMAGE-SVG] "Image" #52:4945 template=EL-cbef2d21
+                          [FRAME] "Container" #52:4118 layout={"mode":"column","padding":"15.479999542236328px 0px 0px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":338,"height":77}}
+                            [FRAME] "Container" #52:4119 template=EL-c0e356e5
+                              [FRAME] "Paragraph" #52:4120 template=EL-28414a40
+                                [TEXT] #52:4122 template=EL-9090eb55
+                            [FRAME] "Container" #52:4124 layout={"mode":"column","padding":"6.191999912261963px 0px 0px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":338,"height":53}}
+                              [TEXT] #52:4127 layout=layout_05ce9366 fills=fill_3adc2aa0 textStyle=style_687e65c3 text="Real-time teamwork made simple with synced changes and smart user roles across Teachers, Students, Admin, Drivers ."
+                      [FRAME] "Text" #52:4129 template=EL-a9268e24
+                    [FRAME] "Container" #52:4130 template=EL-2d6e7fba
+                      [FRAME] "Container" #52:4131 template=EL-37c30d41
+                        [FRAME] "Container" #52:4132 layout={"mode":"column","padding":"24.76799964904785px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":164}}
+                          [FRAME] "Container" #53:5478 layout={"mode":"row","gap":"4.248000144958496px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":328,"height":47}}
+                            [FRAME] "Container" #53:5479 template=EL-6ae6356a
+                              [IMAGE-SVG] "Image" #53:5480 template=EL-b6c2ac42
+                            [FRAME] "Container" #53:5482 template=EL-6ae6356a
+                              [IMAGE-SVG] "Image" #53:5483 template=EL-b6c2ac42
+                            [FRAME] "Container" #53:5486 template=EL-6ae6356a
+                              [IMAGE-SVG] "Image" #53:5487 template=EL-b6c2ac42
+                            [FRAME] "Container" #53:5497 template=EL-6ae6356a
+                              [IMAGE-SVG] "Image" #53:5498 template=EL-b6c2ac42
+                            [FRAME] "Container" #53:5503 template=EL-6ae6356a
+                              [IMAGE-SVG] "Image" #53:5504 template=EL-b6c2ac42
+                          [FRAME] "Container" #52:4136 layout={"mode":"column","padding":"15.479999542236328px 0px 0px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":337.47,"height":77.94}}
+                            [FRAME] "Paragraph" #52:4137 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":337.47,"height":25}}
+                              [TEXT] #52:4140 template=EL-bb4f7a52
+                            [FRAME] "Paragraph" #52:4144 template=EL-3f850de2
+                              [TEXT] #52:4145 layout=layout_05ce9366 fills=fill_3adc2aa0 textStyle=style_687e65c3 text="Clerks create files digitally. University letterhead and reference numbers are automatically generated."
+                      [FRAME] "Text" #52:4147 template=EL-a9268e24
+                  [FRAME] "Container" #52:4148 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":348.47}} fills=fill_658ab2fa borderRadius=24px
+                    [FRAME] "Container" #52:4149 layout={"mode":"column","padding":"24.76799964904785px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":348.47}}
+                      [FRAME] "Image" #52:4153 template=EL-7d691ff3
+                      [FRAME] "Container" #52:4154 layout={"mode":"column","padding":"15.479999542236328px 0px 0px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":330.72,"height":77.94}}
+                        [FRAME] "Container" #52:4155 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":330.72,"height":25}}
+                          [FRAME] "Paragraph" #52:4156 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":221.58}}
+                            [TEXT] #52:4158 template=EL-77af4cfe
+                        [FRAME] "Paragraph" #52:4162 layout={"mode":"column","padding":"6.191999912261963px 0px 0px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":330.72,"height":37.47}}
+                          [TEXT] #52:4163 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"hug"},"dimensions":{"width":331}} fills=fill_3adc2aa0 textStyle=style_687e65c3 text="A unique QR code is applied. Print the cover page and movement sheet immediately."
+                    [FRAME] "Text" #52:4165 layout={"mode":"none","sizing":{"horizontal":"fixed","vertical":"fixed"},"position":"absolute","locationRelativeToParent":{"x":0,"y":0},"dimensions":{"width":387,"height":348.47}} strokes=fill_6fcdffce strokeWeight=1px borderRadius=24px
+              [FRAME] "Container" #52:4166 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":328}} fills=fill_658ab2fa borderRadius=24px
+                [FRAME] "Container" #52:4167 layout={"mode":"row","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":328}}
+                  [FRAME] "Container" #52:4168 layout={"mode":"column","padding":"24.934999465942383px","justifyContent":"space-between","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":387,"height":328}}
+                    [FRAME] "Container" #52:4169 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":367.5,"height":97}}
+                      [FRAME] "Container" #52:4170 layout={"mode":"column","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":367.5,"height":12}}
+                        [TEXT] #52:4173 template=EL-948b2b7f
+                      [FRAME] "Container" #52:4176 template=EL-ab61cfb1
+                        [TEXT] #52:4179 template=EL-6f284819
+                      [FRAME] "Container" #52:4181 layout={"mode":"column","padding":"6.233759880065918px 0px 0px","sizing":{"horizontal":"fixed","vertical":"fixed"},"dimensions":{"width":367.5,"height":37.5}}
+                        [TEXT] #52:4184 template=EL-fa778367
+                    [FRAME] "Container" #52:4187 template=EL-8863d713
+                      [FRAME] "Paragraph" #52:4188 template=EL-2f9fe287
+                        [TEXT] #52:4190 template=EL-89b9a846
+

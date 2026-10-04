@@ -53,7 +53,7 @@ export default function Hero() {
         </motion.div>
 
         {/* Text Content */}
-        <div className="relative z-10 flex flex-col lg:justify-end gap-[18px] lg:w-[604px] lg:h-[635px] order-1 lg:order-none pointer-events-none">
+        <div className="relative z-10 flex flex-col lg:justify-start lg:pt-45 gap-[18px] lg:w-[604px] lg:h-[635px] order-1 lg:order-none pointer-events-none">
           <div className="flex flex-col gap-[18px] pointer-events-auto">
             <motion.div
               initial={{ opacity: 0, y: 20 }}

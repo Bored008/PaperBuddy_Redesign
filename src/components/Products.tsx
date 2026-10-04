@@ -101,32 +101,29 @@ export default function Products() {
           const isActive = hoveredIndex === index;
 
           return (
-            <motion.div
+            <div
               key={product.id}
-              className={`product-card flex flex-col md:flex-row md:items-center justify-between p-6 md:p-8 rounded-2xl transition-colors duration-300 ${
-                isActive ? "bg-[#397EE5] text-white" : "bg-transparent text-black border-b border-zinc-200 rounded-none last:border-b-0"
+              className={`product-card grid grid-cols-1 md:grid-cols-[340px_1fr_auto] gap-6 md:gap-16 items-center p-6 md:p-8 rounded-[16px] transition-all duration-300 ease-in-out ${
+                isActive ? "bg-[#397EE5] text-white" : "bg-transparent text-black border-b border-zinc-200"
               }`}
               onMouseEnter={() => setHoveredIndex(index)}
-              onMouseLeave={() => {
-                // Optional: keep the last hovered state or reset
-              }}
-              layout
+              onMouseLeave={() => setHoveredIndex(0)}
             >
-              <div className="flex items-start md:items-center gap-6 md:gap-8 flex-1">
+              <div className="flex items-start md:items-center gap-6 md:gap-8 whitespace-nowrap">
                 <span
-                  className={`text-3xl md:text-4xl font-satoshi ${
+                  className={`text-[36px] leading-[43.2px] font-switzer font-semibold ${
                     isActive ? "text-white" : "text-black"
                   }`}
                 >
                   {product.id}
                 </span>
                 
-                <div className="flex flex-col min-w-[200px]">
-                  <h3 className="text-2xl md:text-3xl font-switzer font-semibold">
+                <div className="flex flex-col">
+                  <h3 className="text-2xl md:text-[36px] leading-[43.2px] font-switzer font-semibold">
                     {product.title}
                   </h3>
                   <p
-                    className={`font-satoshi text-base mt-1 ${
+                    className={`font-satoshi text-base mt-1 whitespace-normal ${
                       isActive ? "text-white/75" : "text-zinc-500"
                     }`}
                   >
@@ -136,14 +133,14 @@ export default function Products() {
               </div>
 
               <p
-                className={`font-satoshi text-base leading-relaxed flex-1 my-6 md:my-0 md:mx-8 ${
+                className={`font-satoshi text-[16px] leading-[20.8px] max-w-[480px] ${
                   isActive ? "text-white/75" : "text-zinc-600/75"
                 }`}
               >
                 {product.description}
               </p>
 
-              <div className="flex items-center gap-4 flex-wrap md:flex-nowrap">
+              <div className="flex flex-row md:flex-col items-start md:items-center justify-start gap-3 w-[180px]">
                 {product.actions.map((action, i) => {
                   const Icon = action.icon;
                   const isPrimary = action.primary;
@@ -151,7 +148,7 @@ export default function Products() {
                   return (
                     <button
                       key={i}
-                      className={`flex items-center justify-center gap-2 px-4 py-2 rounded-full font-satoshi text-sm font-medium transition-colors ${
+                      className={`flex items-center justify-center gap-2 px-4 py-2 rounded-full font-satoshi text-[14px] leading-[20px] font-medium transition-colors w-full ${
                         isActive
                           ? isPrimary
                             ? "bg-white text-black"
@@ -162,12 +159,12 @@ export default function Products() {
                       }`}
                     >
                       <span>{action.label}</span>
-                      <Icon className="w-4 h-4" />
+                      <Icon className="w-[18px] h-[18px]" />
                     </button>
                   );
                 })}
               </div>
-            </motion.div>
+            </div>
           );
         })}
       </div>

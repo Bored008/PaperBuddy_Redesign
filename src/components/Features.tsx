@@ -125,17 +125,25 @@ const Features = () => {
                 transition={{ duration: 0.2 }}
                 className="feature-card flex flex-col bg-white border border-[#E4E4E7] rounded-[24px] p-6 h-[175px] justify-center"
               >
-                {/* Simulated Avatars */}
-                <div className="flex flex-row -space-x-3 mb-3">
-                  {[1, 2, 3, 4, 5].map((i) => (
+                <div className="flex flex-row gap-[4.25px] mb-3">
+                  {[
+                    "icon-discord.svg",
+                    "icon-whatsapp.svg",
+                    "icon-meet.svg",
+                    "icon-slack.svg",
+                    "icon-telegram.svg",
+                  ].map((icon, i) => (
                     <div
                       key={i}
-                      className="w-[38px] h-[38px] rounded-full border-2 border-white bg-gray-200 flex items-center justify-center overflow-hidden"
+                      className="w-[53px] h-[51px] rounded-[16px] border border-zinc-200/50 bg-zinc-100/50 flex items-center justify-center"
                     >
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="2">
-                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="12" cy="7" r="4"></circle>
-                      </svg>
+                      <Image
+                        src={`/images/${icon}`}
+                        alt="App Icon"
+                        width={26}
+                        height={26}
+                        className="object-contain"
+                      />
                     </div>
                   ))}
                 </div>
@@ -209,7 +217,7 @@ const Features = () => {
               </button>
             </div>
 
-            <div className="relative w-full max-w-[473px] h-[250px] md:h-[350px] mt-8 md:mt-0 md:absolute md:-right-10 md:top-1/2 md:-translate-y-1/2">
+            <div className="relative w-full max-w-[473px] h-[250px] md:h-[350px] mt-8 md:mt-0 md:absolute md:left-[65%] md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 pointer-events-none z-0 flex items-center justify-center">
               <Image
                 src="/images/feature-mobile.svg"
                 alt="Mobile friendly"
