@@ -88,7 +88,7 @@ export default function Products() {
   );
 
   return (
-    <section ref={containerRef} className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+    <section ref={containerRef} className="w-full max-w-[1296px] mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-16 sm:pb-24">
       <div className="flex flex-col gap-2 mb-12 text-center md:text-left">
         <h2 className="text-[56px] md:text-[64px] leading-[72.8px] md:leading-[83.2px] font-semibold font-switzer text-black">Our Products</h2>
         <p className="text-[#666666] text-[16px] leading-[19.2px] tracking-[-0.02em] font-satoshi max-w-[531px] md:mx-0 mx-auto">

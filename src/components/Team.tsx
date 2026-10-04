@@ -60,11 +60,11 @@ export default function Team() {
       ref={sectionRef}
       className="w-full max-w-[1296px] mx-auto py-16 md:py-24 px-4 flex flex-col items-center overflow-hidden"
     >
-      <div className="team-header flex flex-col items-center gap-3 text-center">
+      <div className="team-header flex flex-col items-center text-center">
         <h2 className="font-switzer font-semibold text-[56px] md:text-[64px] leading-[72.8px] md:leading-[83.2px] text-black">
           Meet Our <span className="text-[#397EE5]">Founders</span>
         </h2>
-        <p className="font-satoshi text-base text-[#666666] tracking-[-0.02em] leading-[19.2px] max-w-[600px]">
+        <p className="font-satoshi text-base text-[#666666] tracking-[-0.02em] leading-[19.2px] max-w-[650px]">
           Product, operations, and growth — the team building PaperBuddy from the ground up.
         </p>
       </div>
@@ -80,6 +80,14 @@ export default function Team() {
           />
         </div>
         
+        <svg className="absolute w-0 h-0">
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+              <path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            </marker>
+          </defs>
+        </svg>
+
         {/* Desktop Absolute Labels */}
         <div className="absolute inset-0 hidden md:block">
            {/* Sachin */}
@@ -93,12 +101,14 @@ export default function Team() {
                 ( Keeps everything running behind the scenes )
               </p>
            </motion.div>
-           <Image src="/images/arrow-left.svg" alt="Arrow" width={178} height={60} className="absolute -left-[30px] top-[140px] pointer-events-none" />
+           <svg className="absolute -left-[20px] top-[140px] pointer-events-none" width="160" height="100" overflow="visible">
+             <path d="M 140 20 Q 70 -30 0 80" fill="none" stroke="black" strokeWidth="1" markerEnd="url(#arrow)"/>
+           </svg>
 
            {/* Shashi Kant */}
            <motion.div 
              whileHover={{ scale: 1.05 }}
-             className="team-member absolute flex flex-col items-center gap-1 left-[396px] top-[10px] w-[201px]"
+             className="team-member absolute flex flex-col items-center gap-1 left-[231px] -top-[20px] w-[250px]"
            >
               <h3 className="font-satoshi font-bold text-2xl text-[#397EE5] leading-[28.8px]">Shashi Kant</h3>
               <p className="font-satoshi text-base text-black/75 leading-[17.6px] text-center">Founder & Head of Product</p>
@@ -106,12 +116,14 @@ export default function Team() {
                 ( Leads product direction and roadmap )
               </p>
            </motion.div>
-           <Image src="/images/arrow-middle.svg" alt="Arrow" width={40} height={74} className="absolute left-[342px] top-[67px] pointer-events-none" />
+           <svg className="absolute left-[350px] pointer-events-none" width="100" height="120" overflow="visible">
+             <path d="M 30 0 Q 70 50 10 110" fill="none" stroke="black" strokeWidth="1" markerEnd="url(#arrow)"/>
+           </svg>
 
            {/* Vikash Kumar */}
            <motion.div 
              whileHover={{ scale: 1.05 }}
-             className="team-member absolute flex flex-col items-center gap-1 left-[580px] top-[230px] w-[253px]"
+             className="team-member absolute flex flex-col items-center gap-1 left-[640px] top-[230px] w-[253px]"
            >
               <h3 className="font-satoshi font-bold text-2xl text-[#397EE5] leading-[28.8px]">Vikash Kumar</h3>
               <p className="font-satoshi text-base text-black/75 leading-[17.6px] text-center">Co-Founder & Head of Marketing</p>
@@ -119,7 +131,9 @@ export default function Team() {
                 ( Builds PaperBuddy&apos;s presence and partnerships )
               </p>
            </motion.div>
-           <Image src="/images/arrow-right.svg" alt="Arrow" width={115} height={38} className="absolute left-[540px] top-[190px] pointer-events-none" />
+           <svg className="absolute left-[550px] top-[160px] pointer-events-none" width="160" height="100" overflow="visible">
+             <path d="M 0 50 Q 80 -10 150 70" fill="none" stroke="black" strokeWidth="1" markerEnd="url(#arrow)"/>
+           </svg>
         </div>
 
         {/* Mobile View Stacked Labels */}

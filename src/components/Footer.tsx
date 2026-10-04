@@ -160,22 +160,31 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="footer-content border-t border-white/40 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-6">
-            {['Instagram', 'Linkedin', 'X(Twitter)'].map((social) => (
-              <Link key={social} href="#" className="text-white/75 hover:text-white transition-colors">
-                {social}
-              </Link>
-            ))}
+        <div className="footer-content border-t border-white/45 pt-8 mt-12 flex flex-col gap-6">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6 relative">
+            <div className="flex items-center gap-6">
+              {['Instagram', 'Linkedin', 'X(Twitter)'].map((social) => (
+                <Link key={social} href="#" className="text-white/75 hover:text-white transition-colors">
+                  {social}
+                </Link>
+              ))}
+            </div>
+            
+            <div className="text-white/75 text-sm text-center md:text-right">
+              © 2026 PaperBuddy. All rights reserved
+            </div>
           </div>
           
-          <div className="text-white/75 text-sm text-center md:text-left">
-            © 2026 PaperBuddy. All rights reserved
+          <div className="text-center pb-2">
+            <Link 
+              href="https://www.linkedin.com/in/himanshuakabored/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white font-medium text-[18px] hover:underline transition-all"
+            >
+              Designed by Himanshu (Bored)
+            </Link>
           </div>
-        </div>
-        
-        <div className="footer-content text-center mt-4">
-          <span className="text-white font-medium text-lg">Designed by Himanshu (Bored)</span>
         </div>
       </div>
     </footer>

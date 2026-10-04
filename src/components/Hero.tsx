@@ -41,13 +41,16 @@ export default function Hero() {
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
-          className="relative w-full lg:absolute lg:left-[407px] lg:top-[-35px] lg:w-[966px] lg:h-[679px] order-2 lg:order-none z-0 mt-12 lg:mt-0"
+          className="relative w-full lg:absolute lg:left-[407px] lg:top-[-155px] lg:w-[966px] lg:h-[679px] order-2 lg:order-none z-0 mt-12 lg:mt-0"
         >
-          <div className="relative w-full aspect-video lg:aspect-auto lg:w-[829px] lg:h-[612px] lg:ml-[97px] lg:mt-[27px] rounded-3xl overflow-hidden shadow-xl">
-            <img 
-              src="/images/video-placeholder.webp" 
-              alt="Video Placeholder" 
-              className="w-full h-full object-cover"
+          <div className="relative w-full aspect-video lg:aspect-auto lg:w-[829px] lg:h-[612px] lg:ml-[97px] lg:mt-[27px] overflow-hidden">
+            <video 
+              src="/images/paperBuddy.mp4" 
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-full object-cover mix-blend-multiply brightness-[1.05] contrast-[1.05]"
             />
           </div>
         </motion.div>

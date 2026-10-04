@@ -94,14 +94,20 @@ export default function FAQ() {
           <div 
             key={index}
             ref={(el) => { itemsRef.current[index] = el }}
-            className="bg-[#EDEDED] rounded-2xl p-8 cursor-pointer transition-colors"
+            className={`rounded-2xl p-8 cursor-pointer transition-colors duration-300 ${
+              openIndex === index ? "bg-[#397EE5]" : "bg-[#EDEDED]"
+            }`}
             onClick={() => setOpenIndex(openIndex === index ? null : index)}
           >
-            <div className="flex justify-between items-center gap-4">
-              <h3 className="text-[32px] leading-[38.4px] text-[#000000] font-normal font-satoshi flex-1">
+            <div className="flex justify-between items-start gap-4">
+              <h3 className={`text-[32px] leading-[38.4px] font-normal font-satoshi flex-1 transition-colors duration-300 ${
+                openIndex === index ? "text-white" : "text-[#000000]"
+              }`}>
                 {faq.question}
               </h3>
-              <div className="flex items-center justify-center min-w-[38px] h-[38px] text-[#09090B]">
+              <div className={`flex items-center justify-center min-w-[38px] h-[38px] transition-colors duration-300 ${
+                openIndex === index ? "text-white" : "text-[#09090B]"
+              }`}>
                 {openIndex === index ? (
                   <Minus className="w-8 h-8" strokeWidth={1.5} />
                 ) : (
@@ -119,7 +125,7 @@ export default function FAQ() {
                   transition={{ duration: 0.3, ease: "easeInOut" }}
                   className="overflow-hidden"
                 >
-                  <p className="text-[#71717B] text-[18px] leading-[24.81px] font-satoshi font-medium pr-12">
+                  <p className="text-white/90 text-[18px] leading-[24.81px] font-satoshi font-medium pr-12">
                     {faq.answer}
                   </p>
                 </motion.div>
